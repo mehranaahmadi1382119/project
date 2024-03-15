@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+    margin: 0px;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+}
+.ul{
+
+    list-style-type: none;
+    padding-left: 43%;
+
+
+}
+.li a {
+text-decoration: none;
+color: rgb(255, 255, 255);
+
+}
+.li{
+    width: 70px;
+    height: 29px;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    margin-top:12px;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+header{
+    margin: 0px;
+    width: 100%;
+    padding-bottom: 19px;
+    height: 50px;
+    background-color: rgb(19, 24, 24);
+    position: fixed;
+    z-index: auto;
+   
+}
+li:hover{
+    background-color: rgb(196, 23, 23);
+    border-radius: 4px;
+}
+.ims{
+    width: 420px;
+    height: 420px;
+    float: right;
+    background-color: rgb(32, 32, 31);
+    border: 1px white solid;
+    border-radius: 5px;
+    margin: 50px;
+    transition: all 0.3s;
+    margin-top: 0%;
+    }
+    .ims:hover{
+    width: 430px;
+    height: 430px;
+    
+    }
+    
+    .ims img{
+        height: 85%;
+        width: 305px;
+        margin: 7px;
+        margin-bottom: 0px;
+        border-radius: 5px;
+        transition: all 0.3s;
+        border-bottom: 1px white solid;
+    }
+    .icon{
+        position:relative;
+        right: 0px;
+        bottom: 250px;
+        color: red;
+        opacity: 0;
+        font-size: 25px;
+    }
+    .ims:hover .icon{
+        opacity: 100%;
+    }    
+    .pstyle{
+        color: aliceblue;
+        text-decoration: none;
+        font-size: 25px;
+        margin-top: 9px;
+    }
+    
+    .master{
+        width: 100%;
+        height:500px;
+        margin: 0px;
+    }
+   
+     table{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+     }
+    tr{
+        height: 35px;
+       
+    }
+    td{
+        width: 38px;
+        border: 1px white solid;
+        border-radius: 3px;
+        transition: all 0.5s;
+    }
+    table tr td:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    footer{
+        background-color: rgb(19, 24, 24);
+        width: 100%;
+        height:34px;
+        text-align: center;
+        padding-top: 18px;
+        margin-bottom: 0%;
+       
+    }
