@@ -104,6 +104,9 @@ text-decoration: none;
     margin-top: 9px;
     
 }
+a{
+    text-decoration:none;
+}
 
 .master{
     width: 100%;
